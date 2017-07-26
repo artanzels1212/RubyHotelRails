@@ -1,0 +1,11 @@
+<div class="container">
+	<div class="admin-head">
+		<img src="<%=asset_path 'drawing.svg'%>" class="admin-logo pull-left">
+		<%if user_signed_in?%>
+		  <a href="<%=destroy_user_session_path%>" class="">logout <span class="glyphicon glyphicon-log-out"></span></a>
+		<%end%>
+	</div>
+	<aside>
+		
+	</aside>
+</div>
